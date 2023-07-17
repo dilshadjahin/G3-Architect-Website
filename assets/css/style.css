@@ -52,4 +52,35 @@ nav li a{
     background-color: #FF900E;
     color: #FFF4E7;
     border: none;
+    border-radius: 8px;
+    padding: 20px 24px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*****Responsive media queries****/
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    
+}
+
+/****tablet or medium devices****/
+
+@media screen  and (min-width: 576px) and (max-width:960px){
+    nav {
+        flex-direction: column;
+    }
+     header{
+        padding: 40px;
+    }
 }
