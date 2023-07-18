@@ -186,6 +186,14 @@ main{
     width: 165px;
 }
 
+/******footer css******/
+.footer-content{
+    background-color:#FFF4E7 ;
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 180px;
+}
+
 
 
 /*****Responsive media queries****/
